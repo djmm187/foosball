@@ -1,0 +1,48 @@
+
+/** MAIN **/
+.x-panel-body-default {
+	background: #4F351F;
+}
+
+/** HEADER SECTION**/
+.foosball-header {
+	color: #fff;
+	text-shadow: 2px 3px 10px #123;
+	filter: dropshadow(color=#123, offx=2, offy=3);
+	margin: 10px;
+}
+
+/** GRID SECTIONS **/
+#scoreBoard {
+	background: transparent;
+	border: none;
+}
+
+#scoreBoard .x-panel-body-default, 
+#rankings .x-panel-body-default {
+	background: rgb(201,222,150);
+	background: -moz-linear-gradient(top,  rgba(201,222,150,1) 0%, rgba(138,182,107,1) 44%, rgba(57,130,53,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,222,150,1)), color-stop(44%,rgba(138,182,107,1)), color-stop(100%,rgba(57,130,53,1)));
+	background: -webkit-linear-gradient(top,  rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%);
+	background: -o-linear-gradient(top,  rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%);
+	background: linear-gradient(to bottom,  rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=0 );
+}
+
+#scoreBoard .x-toolbar, 
+#rankings .x-toolbar {
+	background: transparent;
+}
+
+#scoreBoard .recentGames, 
+#rankings .playerScores {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/** Modal **/
+
+#genericModal .x-panel-body-default {
+	background: #fff;
+}
